@@ -1,0 +1,203 @@
+html{
+    scroll-behavior:smooth;
+}
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    font-family:"Oswald";
+    height:100%;
+    width:100%;
+    background-color:aliceblue;
+}
+.nav-bar{
+    background:lightsteelblue;
+    width:100%;
+    z-index:1;
+    position:absolute;
+    font-family:"Glegoo";
+    box-shadow: 0px 2px 8px lightsteelblue;
+}
+.nav-bar-list{
+    display:flex;
+    align-items:right;
+    margin-right:10px;
+    margin-left:100px;
+    font-size:20px;
+}
+.nav-item{
+    margin-left:3rem;
+    padding:5px;
+}
+.nav-bar-list a{
+    font-weight:600;
+    text-shadow: 0px 2px 5px white;
+    color:black;
+}
+.nav-bar-list a:hover{
+    color:white;
+    text-shadow: 0px 2px 3px black;
+}
+.name{
+    margin-right:420px;
+    font-weight:600;
+    font-family:"Shadows Into Light";
+    text-shadow: 0px 2px 5px white;
+    padding:6px;
+}
+a{
+    text-decoration:none;
+}
+.nav-bar li{
+    list-style-type:none;
+}
+.main{
+    height:70vh;
+    width:100%;
+}
+.details{
+    float:left;
+}
+.details1,
+.details2{
+    position:absolute;
+    margin-left:10%;
+    left:5px;
+    right:5px;
+    font-style:oblique;
+}
+.details1{
+    top:80px;
+    font-size:25mm;
+    width:50%;
+}
+.details2{
+    top:250px;
+    font-size:5mm;
+    font-family:"Quantico";
+    width:50%;
+}
+.photo{
+    float:left;
+    margin:7% 65%;
+    right:5px;
+}
+.image{
+    border-radius:50%;
+}
+.container{
+    width:60%;
+    background-color:#ddd;
+    border-radius:10px;
+    margin-left:100px;
+}
+.skills h2,
+.achieve h2,
+.resume h2,
+.contact h2{
+    margin-left:8%;
+    padding:20px;
+    font-size:40px;
+    text-shadow: 0px 2px 5px white;
+}
+.skills{
+    box-shadow:0px 2px 5px lightsteelblue;
+    text-align:left;
+    padding-top:10px;
+    padding-bottom:15px;
+}
+.skills p{
+    margin-left:110px;
+    font-size:20px;
+}
+.html{
+    width: 90%; 
+}
+.css{
+    width: 75%;
+}
+.js{
+    width: 65%;
+}
+.python{
+    width: 85%;
+}
+.c{
+    width: 70%;
+}
+.html,.css,.js,.python,.c{
+    background-color:lightsteelblue;
+}
+.achieve{
+    width:100%;
+    height:110vh;
+    box-shadow:0px 2px 5px lightsteelblue;
+}
+.items h4{
+    padding:10px;
+    text-shadow: 0px 2px 5px white;
+    text-align:center;
+    font-family:"Quantico";
+    color:darkslategray;
+}
+.a1{
+    height:320px;
+    width:24%;
+    float:left;
+    margin:0.5%;
+    border-radius:10px;
+    background-image:linear-gradient(to bottom,white,lightsteelblue);
+}
+.simage{
+    width:100%;
+    height:270px;
+    border-radius:10px;
+    padding:5px;
+}
+.resume{
+    width:100%;
+    height:330px;
+    box-shadow:0px 2px 5px lightsteelblue;
+}
+.resume h3{
+    margin-left:10%;
+    padding:10px;
+}
+.ricon{
+    margin-left:10%;
+    width:30px;
+    height:40px;
+}
+.contact{
+    width:100%;
+    box-shadow:0px 2px 5px lightsteelblue;
+}
+.social{
+    height:180px;
+    padding:30px;
+    text-align:center;
+    color:darkslategray;
+}
+.social a{
+    color:darkslategray;
+    font-weight:600;
+    text-decoration:none;
+    padding:10px;
+}
+.icons{
+    display:flex;
+    margin-left:35%;
+}
+.social a:hover{
+    color:black;
+    text-shadow:0px 2px 5px white;
+}
+.footer{
+    display:flex;
+    justify-content:space-evenly;
+    padding:20px;
+    color:white;
+    background:darkslategray;
+}
